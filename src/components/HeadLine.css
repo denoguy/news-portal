@@ -1,0 +1,80 @@
+.headLine {
+  margin-left: 50px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.headLine__recent {
+  display: flex;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 20px;
+}
+
+.headLine__recent > img {
+  border-radius: 20px;
+}
+.recent__details {
+  margin: 20px;
+}
+.recent__details > h3 {
+  margin-top: 10px;
+}
+
+.recent__details > h5 {
+  color: gray;
+}
+.recent__details__user {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.recent__details__user > h4 {
+  margin-left: 10px;
+}
+.recent__details > p {
+  color: gray;
+  margin-left: 50px;
+}
+
+.headLine__calendar {
+  margin-left: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 20px;
+}
+
+.calendar__day {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* padding: 20px;
+  padding-bottom: 0; */
+}
+
+.calendar__day > .calendar__day-details {
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.calendar__day-details > .update {
+  color: gray;
+}
+
+.calendar__day-details > .brief {
+  color: #2e81f4;
+}
+
+.weather__details {
+  display: flex;
+}
+
+.calendr__weather {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.weather__range {
+  margin-left: 20px;
+}
