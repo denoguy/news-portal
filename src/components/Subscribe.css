@@ -1,0 +1,69 @@
+.subscribe {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.form {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 20px;
+  padding: 20px;
+}
+.subscribe__form {
+  flex: 0.4;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.subscribe__form > input {
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+  outline: none;
+}
+
+.subscribe__form > .MuiSvgIcon-root {
+  background-color: #2e81f4 !important;
+  color: white !important;
+  height: 30px !important;
+  border-radius: 5px !important;
+  margin-left: 5px;
+}
+
+.subscribe__post {
+  display: flex;
+  flex: 0.6;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 20px;
+  padding: 20px;
+  margin-left: 10px;
+}
+
+.post__number {
+  display: flex;
+  align-items: center;
+}
+
+.post__details {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.post__details > h3 {
+  margin-top: 5px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.post__number > p {
+  margin-left: 5px;
+  color: gray;
+}
+
+.post__number > .MuiSvgIcon-root {
+  color: gray;
+}

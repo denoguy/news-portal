@@ -1,0 +1,35 @@
+.feature {
+  display: flex;
+  margin-top: 20px;
+}
+.feature__post {
+  display: flex;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 20px;
+  padding: 20px;
+  margin-left: 50px;
+}
+
+.post__details > p {
+  color: gray;
+  margin-top: 10px;
+}
+
+.post__details > button {
+  border: none;
+  background-color: #2e81f4;
+  color: white;
+  height: 30px;
+  width: 80px;
+  border-radius: 10px;
+}
+.feature__author {
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.feature__author > p {
+  color: gray;
+}
