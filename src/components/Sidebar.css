@@ -11,3 +11,30 @@
 .sidebar__user {
   padding: 15px;
 }
+.inbox {
+  width: 90%;
+  background-color: #2e81f4;
+  color: white;
+  margin: auto;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+.inbox__details {
+  display: flex;
+  align-items: center;
+}
+
+.inbox__details > .MuiSvgIcon-root {
+  margin-left: 5px;
+}
+
+.inbox > button {
+  margin-top: 10px;
+  background-color: #1c498a;
+  border: none;
+  height: 25px;
+  width: 80px;
+  border-radius: 10px;
+}

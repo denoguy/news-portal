@@ -8,6 +8,7 @@ import BusinessCenterOutlinedIcon from "@material-ui/icons/BusinessCenterOutline
 import PlayCircleOutlineOutlinedIcon from "@material-ui/icons/PlayCircleOutlineOutlined";
 import RowingOutlinedIcon from "@material-ui/icons/RowingOutlined";
 import FavoriteBorderOutlinedIcon from "@material-ui/icons/FavoriteBorderOutlined";
+import DraftsOutlinedIcon from "@material-ui/icons/DraftsOutlined";
 
 function Sidebar() {
   return (
@@ -23,6 +24,16 @@ function Sidebar() {
       <SidebarRow Icon={PlayCircleOutlineOutlinedIcon} title="Entertainment" />
       <SidebarRow Icon={RowingOutlinedIcon} title="Sports" />
       <SidebarRow Icon={FavoriteBorderOutlinedIcon} title="Health" />
+      <div className="inbox">
+        <div className="inbox__details">
+          <div className="message">
+            <h4>News in a box</h4>
+            <p>Box is all you need</p>
+          </div>
+          <DraftsOutlinedIcon />
+        </div>
+        <button>Upgrade</button>
+      </div>
     </div>
   );
 }
